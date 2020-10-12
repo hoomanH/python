@@ -1,0 +1,14 @@
+from time import *
+def x4(x):
+    y=perf_counter()
+    for i in range(1,x+1):
+        j=x//i
+        if j<i:
+            break
+        if x%i==0:
+            u=(i)
+    o=x//u
+    print(o,u)
+    z=perf_counter()
+    print(float(z)-float(y))
+    
